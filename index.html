@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header con logo e nome Gmail -->
+
+    <div class="container">
+    <header>
+        <div class="header-box"> 
+        <img src="/img/1200px-Gmail_Icon.svg.png" alt="gmail-logo">
+        <h3>Gmail</h3>
+        </div>
+    </header>
+    <hr>
+
+<!-- Main in 2 sezioni: 1) search-box e contatore  2) lista delle singole e-mail -->
+    
+    <main>
+        <section class="search">
+            <input class="text" type="text" placeholder="Search">
+            <input type="button" value="VAI">
+            <p class="unread">You have <span class="number">30</span> unread</p>
+        </section>
+
+     <hr>
+
+        <section class="mail-by-mail">
+
+         <div class="single-mail">
+            <input type="checkbox" name="" id="check"> 
+            <p class="mail">
+                <span id="star">&#9733;</span><strong>Oggetto della email</strong>
+                <span id="mailtext"> - testo della email...</span>
+            </p>
+         </div>
+
+<!-- E-mail con classe diversa (forse già letta) -->
+
+         <div class="read-mail">
+            <input type="checkbox" name="" id="check"> 
+            <p class="mail">
+                <span id="star">&#9733;</span><strong>Oggetto della email</strong>
+                <span id="mailtext"> - testo della email...</span>
+            </p>
+         </div>
+
+         <div class="single-mail">
+            <input type="checkbox" name="" id="check"> 
+            <p class="mail">
+                <span id="star">&#9733;</span><strong>Oggetto della email</strong>
+                <span id="mailtext"> - testo della email...</span>
+            </p>
+         </div>
+
+         <div class="single-mail">
+            <input type="checkbox" name="" id="check"> 
+            <p class="mail">
+                <span id="star">&#9733;</span><strong>Oggetto della email</strong>
+                <span id="mailtext"> - testo della email...</span>
+            </p>
+         </div>
+        </section>
+        <hr>
+    </main>
+
+<!-- Footer: nome dell'autore -->
+
+    <footer>
+        <strong id="brand">Gmail</strong> <em>powered by Alessandro Cinquetti</em> 
+    </footer>
+    </div>
+    
+</body>
+</html>
